@@ -1,0 +1,138 @@
+.card.bg-light.card-body {
+  background-color: var(--super-light-grey) !important;
+  border: none;
+  border-radius: 0;
+  line-height: 1.4;
+  padding: var(--spacing-small);
+}
+
+.card.bg-light {
+  position: relative;
+  margin: var(--spacing-small) 0;
+}
+
+@media screen and (min-width: 500px) {
+  .ERSETZEN::before {
+    position: absolute;
+    margin-bottom: 0em;
+    margin-top: 2px;
+    left: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .ERSETZEN::before {
+    margin-top: 3px;
+  }
+}
+
+.ERSETZEN.card-body {
+  background-color: var(--super-light-grey) !important;
+  border: none;
+  border-left: 4px solid var(--dark-grey);
+  border-radius: 0;
+  line-height: 1.4;
+  padding: var(--spacing-mini);
+}
+
+@media screen and (min-width: 500px) {
+  .ERSETZEN.card-body {
+    padding-left: var(--spacing-med);
+  }
+}
+
+.box-danger .ERSETZEN.card-body {
+  background-color: var(--danger-20) !important;
+  border-left: 4px solid var(--danger);
+}
+
+.box-warning .ERSETZEN.card-body {
+  background-color: var(--warning-20) !important;
+  border-left: 4px solid var(--warning);
+}
+
+.box-success .ERSETZEN.card-body {
+  background-color: var(--success-20) !important;
+  border-left: 4px solid var(--success);
+}
+
+.box-danger .ERSETZEN.card::before,
+.box-warning .ERSETZEN.card::before {
+  background-image: url("../../images/warning.svg");
+}
+
+@media screen and (min-width: 1000px) {
+  .ERSETZEN.card-body {
+    padding: var(--spacing-small) var(--spacing-small) var(--spacing-small)
+      var(--spacing-med);
+  }
+}
+
+.ERSETZEN.card-body *:first-child {
+  margin-top: 0;
+}
+
+.ERSETZEN.card-body *:last-child {
+  margin-bottom: 0;
+}
+
+/* formio-component-content inside well */
+
+.ERSETZEN .formio-component-content h1 {
+  font-size: var(--font-32px);
+  color: var(--dark-grey);
+}
+
+@media screen and (min-width: 600px) {
+  .ERSETZEN .formio-component-content h1 {
+    font-size: var(--font-40px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ERSETZEN .formio-component-content h1 {
+    font-size: var(--font-50px);
+  }
+}
+
+.ERSETZEN .formio-component-content h2 {
+  font-size: var(--font-22px);
+  color: var(--dark-grey);
+}
+
+@media screen and (min-width: 1000px) {
+  .ERSETZEN .formio-component-content h2 {
+    font-size: var(--font-28px);
+  }
+}
+
+.ERSETZEN .formio-component-content h3 {
+  font-size: var(--font-18px);
+  color: var(--dark-grey);
+}
+
+@media screen and (min-width: 1000px) {
+  .ERSETZEN .formio-component-content h3 {
+    font-size: var(--font-24px);
+  }
+}
+
+.ERSETZEN .formio-component-content p {
+  font-size: var(--paragraph-size-small);
+  color: var(--dark-grey);
+  line-height: 1.45;
+}
+
+.ERSETZEN .formio-component-content ul,
+.ERSETZEN .formio-component-content li {
+  font-size: var(--paragraph-size-small);
+  color: var(--dark-grey);
+  line-height: 1.45;
+}
+
+@media screen and (min-width: 800px) {
+  .ERSETZEN .formio-component-content p,
+  .ERSETZEN .formio-component-content li {
+    line-height: var(--line-height);
+  }
+}

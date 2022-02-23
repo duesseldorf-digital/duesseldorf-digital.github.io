@@ -1,0 +1,91 @@
+.formio-component-groupedapiradios,
+.formio-component-radio,
+.formio-component-groupedapiradios .radio {
+  font-size: var(--form-input-size) !important;
+  margin: 0 0 var(--spacing-small);
+}
+
+.formio-component-groupedapiradios .form-check-label,
+.formio-component-radio .form-check-label {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-mini);
+  background: var(--super-light-grey);
+  cursor: pointer;
+}
+
+.formio-component-groupedapiradios .form-check-label:hover,
+.formio-component-radio .form-check-label:hover {
+  background-color: var(--light-grey);
+}
+
+.formio-component-groupedapiradios .form-check-input,
+.formio-component-radio .form-check-input {
+  flex-shrink: 0;
+}
+
+.formio-component-groupedapiradios .form-check,
+.formio-component-radio .form-check {
+  margin-bottom: var(--spacing-super-mini);
+  padding: 0;
+}
+
+.formio-component-groupedapiradios span,
+.formio-component-radio span {
+  position: relative;
+  padding-left: var(--spacing-mini);
+  padding-top: 0;
+  display: block;
+  color: black;
+}
+
+.formio-component-groupedapiradios input[type="radio"],
+.formio-component-radio input[type="radio"] {
+  border: 2px solid var(--dark-grey);
+  background-color: none;
+  appearance: none;
+  border-radius: 50%;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.formio-component-groupedapiradios input[type="radio"]:checked::after,
+.formio-component-radio input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background: var(--dark-grey);
+  border-radius: 50%;
+}
+
+.formio-component-groupedapiradios input[type="radio"]:focus,
+.formio-component-radio input[type="radio"]:focus {
+  border-color: var(--blue);
+}
+
+.formio-component-groupedapiradios input[type="radio"]:focus:checked::after,
+.formio-component-radio input[type="radio"]:focus:checked::after {
+  background: var(--blue);
+}
+
+/* ERROR STYLES */
+
+.formio-component-groupedapiradios.formio-error-wrapper .form-check-label,
+.formio-component-radio.formio-error-wrapper .form-check-label {
+  background: var(--danger-20);
+}
+
+.formio-component-groupedapiradios.formio-error-wrapper input[type="radio"],
+.formio-component-radio.formio-error-wrapper input[type="radio"] {
+  border: 2px solid var(--danger);
+}

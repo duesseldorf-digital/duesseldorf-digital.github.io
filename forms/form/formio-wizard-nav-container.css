@@ -1,0 +1,118 @@
+.formio-wizard-nav-container {
+  list-style: none;
+  margin: 2.5em 0 0 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  gap: var(--spacing-mini);
+  justify-items: center;
+  grid-template-columns: 1fr;
+  direction: reverse;
+  font-size: var(--paragraph-size);
+}
+
+@media screen and (min-width: 700px) {
+  .formio-wizard-nav-container {
+    grid-template-columns: repeat(3, minmax(1px, 1fr));
+    margin: 4em 0 0 0;
+  }
+}
+
+
+
+.formio-wizard-nav-container .list-inline-item {
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+}
+
+.formio-wizard-nav-container .btn.btn-wizard-nav-previous,
+.formio-wizard-nav-container .btn.btn-wizard-nav-next,
+.formio-wizard-nav-container .btn.btn-wizard-nav-submit {
+  padding: var(--btn-primary-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  box-shadow: none !important;
+  width: 100%;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-previous {
+  padding-left: 1em;
+  color: var(--blue) !important;
+  background-color: transparent !important;
+  border-color: var(--blue) !important;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-previous:hover {
+  color: var(--hover) !important;
+  border: var(--btn-primary-border-width) solid var(--hover) !important;
+  background-color: transparent !important;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-submit {
+  background-color: var(--success) !important;
+  border-color: var(--success) !important;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-next {
+  padding-right: 1em;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-cancel {
+  padding: var(--btn-primary-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  box-shadow: none !important;
+  color: var(--dark-grey) !important;
+  border-color: var(--super-light-grey) !important;
+  background-color: var(--super-light-grey) !important;
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .formio-wizard-nav-container .btn-wizard-nav-cancel {
+    width: unset;
+  }
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-cancel:hover {
+  color: var(--dark-grey) !important;
+  border: var(--btn-primary-border-width) solid var(--light-grey) !important;
+  background-color: var(--light-grey) !important;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-previous::before,
+.btn.btn-primary.btn-wizard-nav-next::after,
+.formio-wizard-nav-container .btn-wizard-nav-cancel:before {
+  content: "";
+  width: 17px;
+  height: var(--icon-small);
+  background-image: url("../../images/arrow-big-blue.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 0.65em;
+  display: inline-block;
+  transition: background-image 150ms ease;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-previous:hover::before {
+  background-image: url("../../images/arrow-big-blue-hover.svg");
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-next::after {
+  background-image: url("../../images/arrow-big-white.svg") !important;
+  transform: rotate(180deg);
+  margin-left: 0.65em;
+}
+
+.formio-wizard-nav-container .btn-wizard-nav-cancel:before {
+  background-image: url("../../images/close.svg") !important;
+  width: var(--icon-small);
+  height: var(--icon-small);
+  margin-right: 0.5em;
+}

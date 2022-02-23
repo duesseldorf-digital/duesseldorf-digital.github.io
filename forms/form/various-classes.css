@@ -1,0 +1,11 @@
+.text-muted {
+  color: var(--semi-grey) !important;
+}
+
+.wizard-page {
+	padding-top: var(--spacing-small);
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+	width: 100% !important
+}

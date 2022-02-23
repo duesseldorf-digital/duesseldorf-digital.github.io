@@ -1,0 +1,37 @@
+.formio-component-file .fileSelector {
+  border: 2px dashed var(--mid-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.formio-component-file .fileSelector .browse {
+  color: var(--red);
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid var(--red);
+  padding: 0.5em 1em;
+  border-radius: var(--border-radius-small);
+  margin-top: 0.75em;
+  font-weight: 700;
+  font-size: 1em;
+  padding: var(--btn-primary-padding);
+  color: var(--blue) !important;
+  background-color: var(--white) !important;
+  border-radius: var(--border-radius-small);
+  border: var(--btn-primary-border-width) solid var(--blue) !important;
+  box-shadow: none !important;
+}
+
+.formio-component-file .fileSelector .browse:hover {
+  color: var(--hover) !important;
+  border: var(--btn-primary-border-width) solid var(--hover) !important;
+}
+
+/* ERROR STYLES */
+
+.formio-component-file.formio-error-wrapper .fileSelector {
+  border: 2px dashed var(--danger);
+}

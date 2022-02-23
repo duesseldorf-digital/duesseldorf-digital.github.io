@@ -1,0 +1,54 @@
+.tag__black {
+  background-color: var(--black);
+  text-transform: uppercase;
+  color: var(--white);
+  padding: var(--spacing-super-mini);
+}
+
+.search__area {
+	background-image: url('//042.digital/sp/assets/images/start.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+@media (min-width: 800px) {
+.search__area {
+	padding: 20vh 0px;
+
+  }
+}
+
+
+.ais-SearchBox-input {
+  width: 100%;
+  padding: 0.938rem /* 15px */;
+  border: 2px solid var(--black);
+  border-radius: 0;
+  font-family: var(--text-preset-5__font-family);
+  font-size: var(--text-preset-5__font-size);
+  font-weight: var(--text-preset-5__font-weight);
+  line-height: var(--text-preset-5__line-height);
+  letter-spacing: var(--text-preset-5__letter-spacing);
+  background-color: var(--light-grey);
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNC44OTU5IDIyLjUzMTZDMjkuMTk1NCAxNy4wNjQgMjguODI0OCA5LjEyMTUxIDIzLjc4NCA0LjA4MDY4QzE4LjM0MyAtMS4zNjAyMyA5LjUyMTU5IC0xLjM2MDIzIDQuMDgwNjggNC4wODA2OEMtMS4zNjAyMyA5LjUyMTU5IC0xLjM2MDIzIDE4LjM0MyA0LjA4MDY4IDIzLjc4NEM5LjEyMTUxIDI4LjgyNDggMTcuMDY0IDI5LjE5NTQgMjIuNTMxNiAyNC44OTU5TDMzLjYzNTYgMzZMMzYgMzMuNjM1NkwyNC44OTU5IDIyLjUzMTZaTTIxLjc4NDkgNi4wNzk2OUMyNi4xMjE4IDEwLjQxNjYgMjYuMTIxOCAxNy40NDgxIDIxLjc4NDkgMjEuNzg0OUMxNy40NDgxIDI2LjEyMTggMTAuNDE2NiAyNi4xMjE4IDYuMDc5NjkgMjEuNzg0OUMxLjc0MjgxIDE3LjQ0ODEgMS43NDI4MSAxMC40MTY2IDYuMDc5NjkgNi4wNzk2OUMxMC40MTY2IDEuNzQyODEgMTcuNDQ4MSAxLjc0MjgxIDIxLjc4NDkgNi4wNzk2OVoiIGZpbGw9IiM0MDQwNDAiLz4KPC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-position: right 0.625rem bottom 0.625rem;
+}
+
+.ais-SearchBox-input[type="search"] {
+  outline: 0;
+}
+
+.ais-SearchBox-input:focus {
+  border-color: var(--dd-red);
+  background-color: var(--white);
+}
+
+.ais-SearchBox-input[type="search"]::-webkit-search-decoration,
+.ais-SearchBox-input[type="search"]::-webkit-search-cancel-button,
+.ais-SearchBox-input[type="search"]::-webkit-search-results-button,
+.ais-SearchBox-input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

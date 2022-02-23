@@ -1,0 +1,180 @@
+.formio-component-panel {
+  color: var(--dark-grey);
+}
+
+.formio-component-panel {
+  margin-bottom: 0;
+}
+
+.formio-component-panel .border {
+  border: 1px solid var(--mid-grey) !important;
+  border-radius: 0;
+}
+
+.formio-component-panel .card-header {
+  border: none !important;
+  background-color: var(--super-light-grey);
+  padding: var(--spacing-mini);
+  font-weight: 700;
+  font-size: var(--label-size);
+  border-radius: 0 !important;
+}
+
+.formio-component-panel .card-body {
+  padding: var(--spacing-small) var(--spacing-mini);
+}
+
+.formio-component-panel .card-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-right: 2em;
+  color: var(--black) !important;
+}
+
+.formio-component-panel .formio-collapse-icon {
+  position: absolute;
+  right: 0;
+}
+
+.formio-component-panel .formio-collapse-icon::before {
+  content: "" !important;
+  background-image: url("../../images/plus.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: var(--icon-small) !important;
+  height: var(--icon-small) !important;
+  background-size: 100%;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.formio-component-panel
+  .card-header[aria-expanded="true"]
+  .formio-collapse-icon::before {
+  transform: rotate(45deg) !important;
+}
+
+/* formio-component-content inside panel */
+
+.formio-component-panel .formio-component-content h1,
+.formio-component-panel .formio-component-content h2,
+.formio-component-panel .formio-component-content h3,
+.formio-component-panel .formio-component-content p,
+.formio-component-panel .formio-component-content ul,
+.formio-component-panel .formio-component-content li {
+  color: var(--dark-grey);
+}
+
+.formio-component-panel.box-info .card-header,
+.formio-component-panel.box-info .card-body {
+  background-color: var(--super-light-grey) !important;
+  border-left: 4px solid var(--dark-grey) !important;
+}
+
+.formio-component-panel.box-info .border {
+  border: none !important;
+  border-radius: 0;
+}
+
+.formio-component-panel.box-info .card-title:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/info.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0em;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.formio-component-panel.box-info .card-body {
+  padding-left: 60px;
+}
+
+.formio-component-panel.box-success .card-header,
+.formio-component-panel.box-success .card-body {
+  background-color: var(--success-20) !important;
+  border-left: 4px solid var(--success) !important;
+}
+
+.formio-component-panel.box-success .border {
+  border: none !important;
+  border-radius: 0;
+}
+
+.formio-component-panel.box-success .card-title:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/info.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0em;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.formio-component-panel.box-success .card-body {
+  padding-left: 60px;
+}
+
+.formio-component-panel.box-warning .card-header,
+.formio-component-panel.box-warning .card-body {
+  background-color: var(--warning-20) !important;
+  border-left: 4px solid var(--warning) !important;
+}
+
+.formio-component-panel.box-warning .border {
+  border: none !important;
+  border-radius: 0;
+}
+
+.formio-component-panel.box-warning .card-title:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/warning.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0em;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.formio-component-panel.box-warning .card-body {
+  padding-left: 60px;
+}
+
+.formio-component-panel.box-danger .card-header,
+.formio-component-panel.box-danger .card-body {
+  background-color: var(--danger-20) !important;
+  border-left: 4px solid var(--danger) !important;
+}
+
+.formio-component-panel.box-danger .border {
+  border: none !important;
+  border-radius: 0;
+}
+
+.formio-component-panel.box-danger .card-title:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/warning.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0em;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.formio-component-panel.box-danger .card-body {
+  padding-left: 60px;
+}

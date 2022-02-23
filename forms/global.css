@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--black);
+  font-family: var(--font);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+  background-color: var(--mid-grey);
+}
+
+a {
+  color: inherit;
+}
+
+.service__title {
+  background-color: var(--blue-30);
+}
+
+.bg__light__grey {
+  background-color: var(--light-grey);
+}
+
+.bg__dark__blue {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.text__red {
+  color: var(--red) !important;
+}
+
+.article-accordeon {
+  width: 100%;
+  margin-top: var(--spacing-medium);
+  margin-bottom: var(--spacing-medium);
+}
+
+.article-accordeon > details {
+  margin-bottom: var(--spacing-super-mini);
+  padding: var(--spacing-small);
+  background-color: var(--light-grey);
+  border-right: var(--spacing-nano) solid var(--blue);
+  border-top: 1px solid var(--mid-grey);
+  border-left: 1px solid var(--mid-grey);
+  border-bottom: 1px solid var(--mid-grey);
+  font-size: var(--font-18px);
+  cursor: pointer;
+}
+
+.bg__light__grey .article-accordeon > details {
+  background-color: var(--white);
+}
+
+.bg__light__grey .article-accordeon > details:hover {
+  background-color: var(--blue-30);
+}
+
+.article-accordeon > details:hover {
+  background-color: var(--light-grey);
+}
+
+.article-accordeon > details:focus {
+  background-color: var(--red);
+}
+
+.article-accordeon > details > summary {
+  list-style: none;
+  font-weight: 700;
+}
+
+.article-accordeon > details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.article-accordeon summary {
+  position: relative;
+  padding-right: 1.25rem;
+  padding-left: 2rem;
+  font-weight: 700;
+}
+
+.article-accordeon summary::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 20px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.582 1.625l8.933 8.933a.626.626 0 010 .884l-8.933 8.933' stroke='%23000' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: right 0 bottom 50%;
+  background-repeat: no-repeat;
+  list-style: none;
+  transition: ease-in-out 0.2s all;
+}
+
+@media screen and (min-width: 1024px) {
+  .article-accordeon summary::after {
+    top: 0px;
+  }
+}
+
+.article-accordeon summary:focus {
+  outline: none;
+}
+
+/* Style für Webkit-Browser */
+.article-accordeon summary::-webkit-details-marker {
+  display: none; /* Triangle not shown */
+}
+
+.article-accordeon details[open] summary::after {
+  transform: rotate(90deg);
+}
+
+.article-accordeon details[open] {
+  background-color: var(--white);
+}
+
+figure img {width:100% !important;}

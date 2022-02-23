@@ -1,0 +1,157 @@
+.formio-component-content {
+  color: var(--black);
+  font-size: var(--paragraph-size);
+  margin-bottom: var(--spacing-small);
+}
+
+.formio-component-content a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.formio-component-content a:hover {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.formio-component-content h1 {
+  margin: 0 0 1em 0;
+  font-size: var(--font-32px);
+  line-height: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .formio-component-content h1 {
+    font-size: var(--font-40px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h1 {
+    font-size: var(--font-50px);
+  }
+}
+
+.formio-component-content h1 .text-small {
+  font-size: var(--font-32px);
+}
+
+@media screen and (min-width: 600px) {
+  .formio-component-content h1 .text-small {
+    font-size: var(--font-40px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h1 .text-small {
+    font-size: var(--font-50px);
+  }
+}
+
+.formio-component-content h2 {
+  margin: 0 0 1em 0;
+  font-size: var(--font-32px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .formio-component-content h2 {
+    font-size: var(--font-40px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h2 {
+    font-size: var(--font-50px);
+  }
+}
+
+.formio-component-content h2 .text-small {
+  font-size: var(--font-22px);
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h2 .text-small {
+    font-size: var(--font-28px);
+  }
+}
+
+.formio-component-content h3 {
+  margin: 0 0 1em 0;
+  font-size: var(--font-22px);
+  font-weight: 700;
+  line-height: var(--line-height);
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h3 {
+    font-size: var(--font-28px);
+  }
+}
+
+.formio-component-content h3 .text-small {
+  font-size: var(--font-18px);
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h3 .text-small {
+    font-size: var(--font-24px);
+  }
+}
+
+.formio-component-content h4 {
+  margin: 0 0 1em 0;
+  font-weight: 700;
+  line-height: var(--line-height);
+  font-size: var(--font-18px);
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h4 {
+    font-size: var(--font-24px);
+  }
+}
+
+.formio-component-content h4 .text-small {
+  font-size: var(--font-18px);
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-content h4 .text-small {
+    font-size: var(--font-22px);
+  }
+}
+
+.formio-component-content p {
+  font-size: var(--paragraph-size);
+  line-height: 1.45;
+}
+
+.formio-component-content p .text-small {
+  font-size: var(--paragraph-size-small);
+  line-height: 1.45;
+}
+
+.formio-component-content ul {
+  margin: var(--spacing-mini) 0;
+}
+
+.formio-component-content li {
+  font-size: var(--paragraph-size);
+  line-height: 1.45;
+}
+
+.formio-component-content li .text-small {
+  font-size: var(--paragraph-size-small);
+  line-height: 1.45;
+}
+
+@media screen and (min-width: 800px) {
+  .formio-component-content p,
+  .formio-component-content p .text-small,
+  .formio-component-content li,
+  .formio-component-content li .text-small {
+    line-height: var(--line-height);
+  }
+}

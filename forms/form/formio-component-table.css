@@ -1,0 +1,84 @@
+.formio-component-table {
+  margin-bottom: var(--spacing-small);
+}
+
+.formio-component-table td {
+  padding: var(--spacing-mini) 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-table td {
+    padding: var(--spacing-small) 0;
+  }
+}
+
+.formio-component-table.elterngeld-bezug-table {
+  border-top: 1px solid var(--mid-grey);
+  border-right: 2px dashed var(--mid-grey);
+  position: relative;
+}
+
+.formio-component-table.elterngeld-bezug-table .table {
+  margin: 0;
+  position: relative;
+}
+
+.formio-component-table.elterngeld-bezug-table td {
+  padding: 0;
+  border: none;
+}
+
+.formio-component-table.elterngeld-bezug-table p {
+  font-size: var(--paragraph-size-small);
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+.formio-component-table.elterngeld-bezug-table tr td:first-child {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 2;
+  max-width: 135px;
+  hyphens: auto;
+}
+
+@media screen and (min-width: 650px) {
+  .formio-component-table.elterngeld-bezug-table tr td:first-child {
+    max-width: 150px;
+  }
+}
+
+.formio-component-table.elterngeld-bezug-table td:first-child p {
+  padding: 1em 1em 1em 0;
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.formio-component-table.elterngeld-bezug-table .formio-component-checkbox,
+.formio-component-table.elterngeld-bezug-table .formio-component-content {
+  margin: 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--mid-grey);
+  border-bottom: 1px solid var(--mid-grey);
+}
+
+.formio-component-table.elterngeld-bezug-table
+  td:first-child
+  .formio-component-checkbox,
+.formio-component-table.elterngeld-bezug-table
+  td:first-child
+  .formio-component-content {
+  justify-content: flex-start;
+}
+
+.formio-component-table.elterngeld-bezug-table
+  .formio-component-checkbox
+  .form-check-label {
+  height: 100%;
+}

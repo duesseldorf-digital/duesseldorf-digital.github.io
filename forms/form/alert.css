@@ -1,0 +1,120 @@
+.alert {
+  position: relative;
+  margin: var(--spacing-small) 0;
+  background-color: var(--super-light-grey) !important;
+  border: none;
+  border-left: 4px solid var(--dark-grey);
+  border-radius: 0;
+  line-height: 1.4;
+  padding: var(--spacing-mini);
+}
+
+@media screen and (min-width: 500px) {
+  .alert {
+    padding-left: var(--spacing-med);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .alert {
+    padding: var(--spacing-small) var(--spacing-small) var(--spacing-small)
+      var(--spacing-med);
+  }
+}
+
+.alert::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/info.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+@media screen and (min-width: 500px) {
+  .alert::before {
+    position: absolute;
+    margin-bottom: 0em;
+    margin-top: 3px;
+    left: 1.8rem;
+  }
+}
+
+.alert.alert-danger {
+  background-color: var(--danger-20) !important;
+  border-left: 4px solid var(--danger);
+}
+
+.alert.alert-danger::before {
+  background-image: url("../../images/warning.svg");
+}
+
+.alert *:first-child {
+  margin-top: 0;
+}
+
+.alert *:last-child {
+  margin-bottom: 0;
+}
+
+.alert h1 {
+  font-size: var(--font-32px);
+  color: var(--dark-grey);
+}
+
+@media screen and (min-width: 600px) {
+  .alert h1 {
+    font-size: var(--font-40px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .alert h1 {
+    font-size: var(--font-50px);
+  }
+}
+
+.alert h2 {
+  font-size: var(--font-22px);
+  color: var(--dark-grey);
+}
+
+@media screen and (min-width: 1000px) {
+  .alert h2 {
+    font-size: var(--font-28px);
+  }
+}
+
+.alert h3 {
+  font-size: var(--font-18px);
+  color: var(--dark-grey);
+}
+
+@media screen and (min-width: 1000px) {
+  .alert h3 {
+    font-size: var(--font-24px);
+  }
+}
+
+.alert p {
+  font-size: var(--paragraph-size-small);
+  color: var(--dark-grey);
+  line-height: 1.45;
+}
+
+.alert ul,
+.alert li {
+  font-size: var(--paragraph-size-small);
+  color: var(--dark-grey);
+  line-height: 1.45;
+}
+
+@media screen and (min-width: 800px) {
+  .alert p,
+  .alert li {
+    line-height: var(--line-height);
+  }
+}

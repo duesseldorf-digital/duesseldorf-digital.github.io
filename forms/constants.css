@@ -1,0 +1,92 @@
+:root {
+  /* Font Sizes */
+  --font-12px: 0.75rem;
+  --font-14px: 0.875rem;
+  --font-16px: 1rem;
+  --font-18px: 1.125rem;
+  --font-20px: 1.25rem;
+  --font-22px: 1.375rem;
+  --font-24px: 1.5rem;
+  --font-26px: 1.625rem;
+  --font-28px: 1.75rem;
+  --font-30px: 1.875rem;
+  --font-32px: 2rem;
+  --font-36px: 2.25rem;
+  --font-40px: 2.5rem;
+  --font-50px: 3.125rem;
+  --paragraph-size: var(--font-18px);
+  --paragraph-size-small: var(--font-16px);
+  --label-size: var(--font-16px);
+  --form-input-size: var(--font-16px);
+
+  /* Font */
+  --font: "National";
+  --line-height: 1.4;
+
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --super-light-grey: #f5f5f5;
+  --light-grey: #eee;
+  --mid-grey: #e0e0e0;
+  --semi-grey: #b1b1b1;
+  --dark-grey: #404040;
+  --red: #cd1316;
+  --blue: #009fdf;
+  --blue-10: #009fdf10;
+  --blue-30: #009fdf30;
+  --dark-blue: #002635;
+  --hover: #006a94;
+  --danger: #f00202;
+  --danger-20: #f0020216;
+  --success: #2da722;
+  --success-20: #2da72220;
+  --warning: #fb8c28;
+  --warning-20: #fb8c2820;
+
+  /* Spacings */
+  --max-width: 75rem; /* 1200px */
+  --spacing-nano: 0.3rem;
+  --spacing-super-mini: 0.5rem;
+  --spacing-mini: 1rem;
+  --spacing-small: 2rem;
+  --spacing-med: 3.75rem;
+  --spacing-side: var(--spacing-mini);
+  --header-height: 170px;
+  --footer-height: 88px;
+  --spacing-separator: var(--spacing-small);
+  --icon-small: 15px;
+  --icon-big: 22px;
+
+  /* Styling */
+  --border-radius: 8px;
+  --border-radius-small: 2px;
+  --border-color: var(--semi-grey);
+  --border-color-focus: var(--dark-grey);
+  --btn-primary-border-width: 2px;
+  --btn-primary-padding: 0.5em 1.5em;
+}
+
+@media (min-width: 500px) {
+  :root {
+    --form-input-size: var(--font-20px);
+    --paragraph-size: var(--font-20px);
+  }
+}
+
+@media (min-width: 800px) {
+  :root {
+    --header-height: 175px;
+    --spacing-side: var(--spacing-med);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    --paragraph-size: var(--font-22px);
+    --paragraph-size-small: var(--font-18px);
+    --label-size: var(--font-18px);
+    --form-input-size: var(--font-20px);
+    --spacing-separator: var(--spacing-med);
+  }
+}

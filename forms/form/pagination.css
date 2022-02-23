@@ -1,0 +1,74 @@
+.pagination {
+  margin: 0 0 var(--spacing-separator);
+  padding: 0;
+  border-radius: 0;
+  flex-wrap: wrap;
+}
+
+.pagination .page-item {
+  margin-bottom: 0.25em;
+}
+
+.pagination .page-link:first-child,
+.pagination .page-link:last-child {
+  border-radius: 0;
+}
+
+.pagination .page-item .page-link {
+  background-color: var(--white);
+  color: var(--dark-grey);
+  border: none;
+  padding: 0.25em 0.75em 0.25em 0;
+  display: block;
+  position: relative;
+}
+
+.pagination .page-item .page-link::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url("../../images/arrow-small.svg");
+  opacity: 0.25;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-90deg);
+  margin-left: 0.5em;
+  display: inline-block;
+}
+
+.pagination .page-item:last-child .page-link::after {
+  display: none;
+}
+
+.pagination .page-link:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  border: none;
+  display: block;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--white);
+  color: var(--dark-grey);
+  font-weight: bold;
+  border: none;
+  display: block;
+}
+
+.pagination .page-item.active ~ .page-item .page-link {
+  background-color: var(--white);
+  color: var(--dark-grey);
+  opacity: 0.45;
+  border: none;
+  display: block;
+  cursor: default;
+}
+
+.pagination .page-item.active .page-link::after {
+  opacity: 0.75;
+}
+
+.pagination .page-item.page-item.active:last-child .page-link::after {
+  display: none;
+}

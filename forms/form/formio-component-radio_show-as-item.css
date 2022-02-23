@@ -1,0 +1,99 @@
+.formio-component-groupedapiradios .show-as-item .form-check,
+.formio-component-radio .show-as-item .form-check {
+  width: 100%;
+  margin-bottom: var(--spacing-super-mini);
+  padding: 0;
+  background-color: none;
+}
+
+.formio-component-groupedapiradios .show-as-item .form-check-input,
+.formio-component-radio .show-as-item .form-check-input {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.formio-component-groupedapiradios .show-as-item .form-check-label,
+.formio-component-radio .show-as-item .form-check-label {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none !important;
+}
+
+.formio-component-groupedapiradios .show-as-item input[type="radio"],
+.formio-component-radio .show-as-item input[type="radio"] {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.formio-component-groupedapiradios .show-as-item span,
+.formio-component-radio .show-as-item span {
+  font-size: var(--form-input-size) !important;
+  padding: var(--spacing-mini) !important;
+  width: 100%;
+  border: 1.7px solid var(--semi-grey);
+  background-color: var(--white) !important;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+@media screen and(min-width: 1000px) {
+  .formio-component-groupedapiradios .show-as-item span,
+  .formio-component-radio .show-as-item span {
+    padding: var(--spacing-mini) var(--spacing-small) !important;
+  }
+}
+
+.formio-component-groupedapiradios .show-as-item span:hover,
+.formio-component-radio .show-as-item span:hover {
+  border: 1.7px solid var(--dark-grey);
+  background-color: var(--super-light-grey) !important;
+  color: var(--black) !important;
+}
+
+.formio-component-groupedapiradios
+  .show-as-item
+  input[type="radio"]:checked
+  + span,
+.formio-component-radio .show-as-item input[type="radio"]:checked + span {
+  color: var(--black) !important;
+  border: 1.7px solid var(--blue);
+  background-color: var(--blue-10) !important;
+}
+
+.formio-component-groupedapiradios .show-as-item input[type="radio"] + span,
+.formio-component-radio .show-as-item input[type="radio"] + span {
+  position: relative;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.formio-component-groupedapiradios
+  .show-as-item
+  input[type="radio"]
+  + span::after,
+.formio-component-radio .show-as-item input[type="radio"] + span::after {
+  content: "" !important;
+  background-image: url("../../images/arrow-small.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: var(--icon-small) !important;
+  height: var(--icon-small) !important;
+  background-size: 100%;
+  transform: rotate(-90deg);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* ERROR STYLES */
+
+.formio-component-radio.formio-error-wrapper
+  .show-as-item
+  input[type="radio"]
+  + span {
+  border: 1px solid var(--danger);
+  background-color: var(--danger-20) !important;
+}

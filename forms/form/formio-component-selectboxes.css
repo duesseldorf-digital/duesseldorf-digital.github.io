@@ -1,0 +1,85 @@
+.formio-component-selectboxes {
+  font-size: var(--form-input-size) !important;
+  margin-bottom: var(--spacing-small);
+}
+
+.formio-component-selectboxes input[type="checkbox"] {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--dark-grey);
+  border-radius: 8px;
+  opacity: 1;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  flex-shrink: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.formio-component-selectboxes input[type="checkbox"]:checked {
+  background-color: var(--white) !important;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg' fill='%23404040'%3E%3Cpath d='M5.75 16.755a1.245 1.245 0 01-.885-.365l-4.5-4.5a1.25 1.25 0 111.77-1.765L5.75 13.74 17.87 1.62a1.25 1.25 0 011.765 1.77l-13 13a1.245 1.245 0 01-.885.365z'/%3E%3C/svg%3E");
+}
+
+.formio-component-selectboxes input[type="checkbox"]:checked:focus {
+  border: 2px solid var(--blue) !important;
+  background-color: var(--blue) !important;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg' fill='%23fff'%3E%3Cpath d='M5.75 16.755a1.245 1.245 0 01-.885-.365l-4.5-4.5a1.25 1.25 0 111.77-1.765L5.75 13.74 17.87 1.62a1.25 1.25 0 011.765 1.77l-13 13a1.245 1.245 0 01-.885.365z'/%3E%3C/svg%3E");
+}
+
+.formio-component-selectboxes .form-check-label {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-mini);
+  background: var(--super-light-grey);
+  cursor: pointer;
+}
+
+.formio-component-selectboxes .form-check-label:hover {
+  background: var(--light-grey);
+}
+
+.formio-component-selectboxes span {
+  position: relative !important;
+  padding-top: 0 !important;
+  display: inline-block;
+  color: var(--black) !important;
+  padding-left: var(--spacing-mini) !important;
+}
+
+.formio-component-selectboxes .form-radio .form-check {
+  margin: 0 0 var(--spacing-super-mini) 0 !important;
+  min-height: unset;
+  padding: 0;
+}
+
+.formio-component-selectboxes .col-form-label {
+  color: var(--black) !important;
+  font-size: var(--font-22px) !important;
+  font-weight: 700 !important;
+  line-height: var(--line-height) !important;
+  padding-top: 0 !important;
+  display: inline-block !important;
+  margin: 0 0 1em 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-selectboxes .col-form-label {
+    font-size: var(--font-28px) !important;
+  }
+}
+
+/* ERROR STYLES */
+
+.formio-component-selectboxes.formio-error-wrapper .form-check-label {
+  background: var(--danger-20);
+}
+
+.formio-component-selectboxes.formio-error-wrapper input[type="checkbox"] {
+  border: 2px solid var(--danger);
+}

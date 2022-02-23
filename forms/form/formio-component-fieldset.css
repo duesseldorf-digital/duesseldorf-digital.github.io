@@ -1,0 +1,17 @@
+.formio-component-fieldset {
+  margin-bottom: var(--spacing-separator);
+}
+
+.formio-component-fieldset legend {
+  margin: 0 0 1em 0;
+  font-size: var(--font-22px);
+  font-weight: 700;
+  line-height: var(--line-height);
+  color: var(--black);
+}
+
+@media screen and (min-width: 1000px) {
+  .formio-component-fieldset legend {
+    font-size: var(--font-28px);
+  }
+}

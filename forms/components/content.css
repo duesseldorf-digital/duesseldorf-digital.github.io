@@ -1,0 +1,21 @@
+.content {
+  padding: var(--spacing-small) var(--spacing-side);
+}
+
+.content__inner {
+  margin: var(--spacing-separator) auto;
+  max-width: 791px;
+}
+
+.content__form-title {
+  margin: 0 0 1em 0;
+  font-size: var(--font-20px);
+  font-weight: 700;
+  line-height: var(--line-height);
+}
+
+@media screen and (min-width: 1000px) {
+  .content__form-title {
+    font-size: var(--font-24px);
+  }
+}
