@@ -85,7 +85,7 @@
   height: unset !important;
   font-size: var(--form-input-size) !important;
   line-height: 1.4em !important;
-  border: 2px solid var(--dark-blue);
+  border: 2px solid var(--dark-grey);
   border-radius: 0;
   padding: var(--spacing-super-mini) var(--spacing-mini);
 }
