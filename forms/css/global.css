@@ -27,7 +27,7 @@ a {
 }
 
 .bg__dark__blue {
-  background-color: var(--dark-blue);
+  background-color: var(--dark-grey);
   color: var(--white);
 }
 
