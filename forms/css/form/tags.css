@@ -6,20 +6,36 @@
 }
 
 .search__area {
-	background-image: url('//042.digital/sp/assets/images/start.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  display: none;
+  background: rgb(158, 15, 17);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(158, 15, 17, 1) 7%,
+    rgba(205, 19, 22, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(158, 15, 17, 1) 7%,
+    rgba(205, 19, 22, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(158, 15, 17, 1) 7%,
+    rgba(205, 19, 22, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9e0f11",endColorstr="#cd1316",GradientType=1);
+  height: 450px;
 }
 
+.search__area h1 {
+  font-size: 40px;
+}
 
 @media (min-width: 800px) {
-.search__area {
-	padding: 20vh 0px;
-
+  .search__area {
+    padding: 10vh 0px;
   }
 }
-
 
 .ais-SearchBox-input {
   width: 100%;

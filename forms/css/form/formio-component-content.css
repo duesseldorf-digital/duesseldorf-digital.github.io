@@ -4,6 +4,10 @@
   margin-bottom: var(--spacing-small);
 }
 
+fieldset .formio-component-content {
+  margin-bottom: 0px;
+}
+
 .formio-component-content a {
   color: inherit;
   text-decoration: underline;
@@ -14,20 +18,21 @@
   text-decoration: none;
 }
 
-.formio-component-content h1 {
+h1 {
   margin: 0 0 1em 0;
   font-size: var(--font-32px);
   line-height: 1;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 600px) {
-  .formio-component-content h1 {
+  h1 {
     font-size: var(--font-40px);
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .formio-component-content h1 {
+  h1 {
     font-size: var(--font-50px);
   }
 }
@@ -49,7 +54,7 @@
 }
 
 .formio-component-content h2 {
-  margin: 0 0 1em 0;
+  margin: 0 0 0.75em 0;
   font-size: var(--font-32px);
   font-weight: 700;
   line-height: 1;
@@ -57,52 +62,36 @@
 
 @media screen and (min-width: 600px) {
   .formio-component-content h2 {
-    font-size: var(--font-40px);
+    font-size: var(--font-22px);
   }
 }
 
 @media screen and (min-width: 1000px) {
   .formio-component-content h2 {
-    font-size: var(--font-50px);
-  }
-}
-
-.formio-component-content h2 .text-small {
-  font-size: var(--font-22px);
-}
-
-@media screen and (min-width: 1000px) {
-  .formio-component-content h2 .text-small {
     font-size: var(--font-28px);
   }
 }
 
 .formio-component-content h3 {
-  margin: 0 0 1em 0;
-  font-size: var(--font-22px);
+  margin: 0 0 0.5em 0;
+  font-size: var(--font-18px);
   font-weight: 700;
   line-height: var(--line-height);
 }
 
+fieldset .formio-component-content h3 {
+  margin: 0.5em 0 0 0;
+}
+
 @media screen and (min-width: 1000px) {
   .formio-component-content h3 {
-    font-size: var(--font-28px);
-  }
-}
-
-.formio-component-content h3 .text-small {
-  font-size: var(--font-18px);
-}
-
-@media screen and (min-width: 1000px) {
-  .formio-component-content h3 .text-small {
     font-size: var(--font-24px);
   }
 }
 
 .formio-component-content h4 {
-  margin: 0 0 1em 0;
-  font-weight: 700;
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
   line-height: var(--line-height);
   font-size: var(--font-18px);
 }
@@ -140,6 +129,7 @@
 .formio-component-content li {
   font-size: var(--paragraph-size);
   line-height: 1.45;
+  padding-bottom: var(--spacing-nano);
 }
 
 .formio-component-content li .text-small {
@@ -153,5 +143,9 @@
   .formio-component-content li,
   .formio-component-content li .text-small {
     line-height: var(--line-height);
+  }
+
+  .formio-component-content li {
+    padding-bottom: var(--spacing-mini);
   }
 }

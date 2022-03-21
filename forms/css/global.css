@@ -11,7 +11,7 @@ body {
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased; /* Chrome, Safari */
   -moz-osx-font-smoothing: grayscale; /* Firefox */
-  background-color: var(--mid-grey);
+  background-color: var(--white);
 }
 
 a {
@@ -59,6 +59,16 @@ a {
 
 .bg__light__grey .article-accordeon > details:hover {
   background-color: var(--blue-30);
+}
+
+.formsection {
+  background-color: var(--mid-grey);
+}
+
+@media screen and (min-width: 800px) {
+  .formsection {
+    background-color: var(--super-light-grey);
+  }
 }
 
 .article-accordeon > details:hover {
@@ -122,4 +132,6 @@ a {
   background-color: var(--white);
 }
 
-figure img {width:100% !important;}
+figure img {
+  width: 100% !important;
+}

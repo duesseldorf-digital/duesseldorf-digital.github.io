@@ -1,5 +1,5 @@
 .formio-component-fieldset {
-  margin-bottom: var(--spacing-separator);
+  margin-bottom: var(--spacing-small);
 }
 
 .formio-component-fieldset legend {

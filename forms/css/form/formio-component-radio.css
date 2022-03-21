@@ -9,8 +9,7 @@
 .formio-component-radio .form-check-label {
   display: flex;
   align-items: center;
-  padding: var(--spacing-mini);
-  background: var(--super-light-grey);
+  padding: var(--spacing-nano) var(--spacing-mini);
   cursor: pointer;
 }
 
@@ -42,8 +41,8 @@
 .formio-component-groupedapiradios input[type="radio"],
 .formio-component-radio input[type="radio"] {
   border: 2px solid var(--dark-grey);
-  background-color: none;
   appearance: none;
+  -webkit-appearance: none;
   border-radius: 50%;
   box-shadow: none;
   padding: 0;

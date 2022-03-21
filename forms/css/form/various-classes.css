@@ -1,11 +1,46 @@
 .text-muted {
-  color: var(--semi-grey) !important;
+  color: var(--dark-grey) !important;
 }
 
 .wizard-page {
-	padding-top: var(--spacing-small);
+  padding-top: var(--spacing-small);
 }
 
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
-	width: 100% !important
+  width: 100% !important;
+}
+
+.formio-choices .dropdown {
+  height: calc(1.5em + 0.75rem + 2px) !important;
+}
+
+.choices__list {
+  padding: 0;
+  font-size: 16px;
+}
+
+hr {
+  border: 1px solid;
+  border-color: var(--mid-grey);
+}
+
+h1.form-title {
+  background: white;
+  margin-bottom: 0;
+  padding: 15px 15px;
+  border-radius: 5px 5px 0px 0px;
+  color: var(--dark-grey);
+  font-size: 1rem;
+  border-bottom: 2px solid var(--semi-grey);
+}
+
+@media screen and (min-width: 600px) {
+  h1.form-title {
+    padding: 15px 45px;
+    font-size: 1.4rem;
+  }
+}
+
+.card {
+  border: 2.5px solid var(--mid-grey);
 }

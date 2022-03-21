@@ -31,6 +31,13 @@
   position: relative;
   padding-right: 2em;
   color: var(--black) !important;
+  font-size: var(--font-18px);
+}
+
+@media screen and (min-width: 800px) {
+  .formio-component-panel .card-title {
+    font-size: var(--font-24px);
+  }
 }
 
 .formio-component-panel .formio-collapse-icon {
@@ -67,6 +74,10 @@
   color: var(--dark-grey);
 }
 
+.formio-component-panel .formio-component-content {
+  margin-bottom: 0px;
+}
+
 .formio-component-panel.box-info .card-header,
 .formio-component-panel.box-info .card-body {
   background-color: var(--super-light-grey) !important;
@@ -76,6 +87,7 @@
 .formio-component-panel.box-info .border {
   border: none !important;
   border-radius: 0;
+  padding-bottom: var(--spacing-mini);
 }
 
 .formio-component-panel.box-info .card-title:before {
@@ -92,7 +104,7 @@
 }
 
 .formio-component-panel.box-info .card-body {
-  padding-left: 60px;
+  padding-left: 65px;
 }
 
 .formio-component-panel.box-success .card-header,
@@ -104,6 +116,7 @@
 .formio-component-panel.box-success .border {
   border: none !important;
   border-radius: 0;
+  padding-bottom: var(--spacing-mini);
 }
 
 .formio-component-panel.box-success .card-title:before {
@@ -120,7 +133,7 @@
 }
 
 .formio-component-panel.box-success .card-body {
-  padding-left: 60px;
+  padding-left: 65px;
 }
 
 .formio-component-panel.box-warning .card-header,
@@ -132,6 +145,7 @@
 .formio-component-panel.box-warning .border {
   border: none !important;
   border-radius: 0;
+  padding-bottom: var(--spacing-mini);
 }
 
 .formio-component-panel.box-warning .card-title:before {
@@ -148,7 +162,7 @@
 }
 
 .formio-component-panel.box-warning .card-body {
-  padding-left: 60px;
+  padding-left: 65px;
 }
 
 .formio-component-panel.box-danger .card-header,
@@ -160,6 +174,7 @@
 .formio-component-panel.box-danger .border {
   border: none !important;
   border-radius: 0;
+  padding-bottom: var(--spacing-mini);
 }
 
 .formio-component-panel.box-danger .card-title:before {
@@ -176,5 +191,5 @@
 }
 
 .formio-component-panel.box-danger .card-body {
-  padding-left: 60px;
+  padding-left: 65px;
 }

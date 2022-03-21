@@ -32,7 +32,7 @@
   font-size: var(--form-input-size) !important;
   padding: var(--spacing-mini) !important;
   width: 100%;
-  border: 1.7px solid var(--semi-grey);
+  border: 2px solid var(--semi-grey);
   background-color: var(--white) !important;
   border-radius: var(--border-radius);
   cursor: pointer;
@@ -47,7 +47,7 @@
 
 .formio-component-groupedapiradios .show-as-item span:hover,
 .formio-component-radio .show-as-item span:hover {
-  border: 1.7px solid var(--dark-grey);
+  border: 2px solid var(--dark-grey);
   background-color: var(--super-light-grey) !important;
   color: var(--black) !important;
 }
@@ -58,7 +58,7 @@
   + span,
 .formio-component-radio .show-as-item input[type="radio"]:checked + span {
   color: var(--black) !important;
-  border: 1.7px solid var(--blue);
+  border: 2px solid var(--blue);
   background-color: var(--blue-10) !important;
 }
 

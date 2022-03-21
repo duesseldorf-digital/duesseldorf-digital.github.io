@@ -14,7 +14,7 @@
   --font-36px: 2.25rem;
   --font-40px: 2.5rem;
   --font-50px: 3.125rem;
-  --paragraph-size: var(--font-18px);
+  --paragraph-size: var(--font-16px);
   --paragraph-size-small: var(--font-16px);
   --label-size: var(--font-16px);
   --form-input-size: var(--font-16px);
@@ -26,7 +26,7 @@
   /* Colors */
   --white: #fff;
   --black: #000;
-  --super-light-grey: #f5f5f5;
+  --super-light-grey: #f4f4f4;
   --light-grey: #eee;
   --mid-grey: #e0e0e0;
   --semi-grey: #b1b1b1;
@@ -83,10 +83,10 @@
 
 @media screen and (min-width: 1000px) {
   :root {
-    --paragraph-size: var(--font-22px);
-    --paragraph-size-small: var(--font-18px);
+    --paragraph-size: var(--font-20px);
+    --paragraph-size-small: var(--font-16px);
     --label-size: var(--font-18px);
     --form-input-size: var(--font-20px);
-    --spacing-separator: var(--spacing-med);
+    --spacing-separator: var(--spacing-small);
   }
 }

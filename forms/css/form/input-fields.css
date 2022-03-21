@@ -46,7 +46,7 @@
   .formio-component-selectboxes .form-text,
   .formio-component-editgrid .form-text,
   .formio-component-day .form-text {
-    max-width: 50%;
+    max-width: 90%;
   }
 
   .formio-component-textfield .pull-right,
@@ -85,7 +85,7 @@
   height: unset !important;
   font-size: var(--form-input-size) !important;
   line-height: 1.4em !important;
-  border: 2px solid var(--border-color);
+  border: 2px solid var(--dark-blue);
   border-radius: 0;
   padding: var(--spacing-super-mini) var(--spacing-mini);
 }
@@ -124,33 +124,39 @@
 }
 
 .formio-component-textfield .input-group-prepend,
-.formio-component-textfield .input-group-append,
 .formio-component-addresssearch .input-group-prepend,
-.formio-component-addresssearch .input-group-append,
 .formio-component-phoneNumber .input-group-prepend,
-.formio-component-phoneNumber .input-group-append,
 .formio-component-email .input-group-prepend,
-.formio-component-email .input-group-append,
 .formio-component-textarea .input-group-prepend,
-.formio-component-textarea .input-group-append,
 .formio-component-number .input-group-prepend,
-.formio-component-number .input-group-append,
 .formio-component-url .input-group-prepend,
-.formio-component-url .input-group-append,
 .formio-component-file .input-group-prepend,
-.formio-component-file .input-group-append,
 .formio-component-map .input-group-prepend,
-.formio-component-map .input-group-append,
 .formio-component-select .input-group-prepend,
-.formio-component-select .input-group-append,
 .formio-component-selectboxes .input-group-prepend,
-.formio-component-selectboxes .input-group-append,
 .formio-component-editgrid .input-group-prepend,
-.formio-component-editgrid .input-group-append,
-.formio-component-day .input-group-prepend,
-.formio-component-day .input-group-append {
-  border: none;
+.formio-component-day .input-group-prepend {
+  border: 2px solid var(--dark-blue);
   background-color: var(--light-grey);
+  border-right: none;
+}
+
+.formio-component-textfield .input-group-append,
+.formio-component-addresssearch .input-group-append,
+.formio-component-phoneNumber .input-group-append,
+.formio-component-email .input-group-append,
+.formio-component-textarea .input-group-append,
+.formio-component-number .input-group-append,
+.formio-component-url .input-group-append,
+.formio-component-file .input-group-append,
+.formio-component-map .input-group-append,
+.formio-component-select .input-group-append,
+.formio-component-selectboxes .input-group-append,
+.formio-component-editgrid .input-group-append,
+.formio-component-day .input-group-append {
+  border: 2px solid var(--dark-blue);
+  background-color: var(--light-grey);
+  border-left: none;
 }
 
 .formio-component-textfield .input-group-text,
@@ -191,7 +197,8 @@ fieldset .formio-component-select .col-form-label,
 fieldset .formio-component-editgrid .col-form-label,
 fieldset .formio-component-groupedapiradios .radio h3,
 fieldset .formio-component-radio .col-form-label,
-fieldset fieldset legend  {
+fieldset .formio-component-selectboxes .col-form-label,
+fieldset fieldset legend {
   color: var(--black) !important;
   font-size: var(--label-size) !important;
   font-weight: 400 !important;
@@ -219,14 +226,14 @@ fieldset .formio-component-groupedapiradios .col-form-label {
 .formio-component-editgrid .col-form-label,
 .formio-component-groupedapiradios .col-form-label,
 .formio-component-groupedapiradios .radio h3,
-.formio-component-radio .col-form-label  {
+.formio-component-radio .col-form-label {
   color: var(--black) !important;
   font-size: var(--font-22px) !important;
   font-weight: 700 !important;
   line-height: var(--line-height) !important;
   padding-top: 0 !important;
   display: inline-block !important;
-  margin: var(--spacing-small) 0 0.5em 0;
+  margin: var(--spacing-nano) 0 0.5em 0;
 }
 
 @media screen and (min-width: 1000px) {
@@ -245,7 +252,8 @@ fieldset .formio-component-groupedapiradios .col-form-label {
   .formio-component-groupedapiradios .col-form-label,
   .formio-component-groupedapiradios .radio h3,
   .formio-component-radio .col-form-label {
-    font-size: var(--font-28px) !important;
+    font-size: var(--font-26px) !important;
+    margin: var(--spacing-small) 0 0.5em 0;
   }
 }
 

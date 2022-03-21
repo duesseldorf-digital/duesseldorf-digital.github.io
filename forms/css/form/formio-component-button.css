@@ -53,3 +53,21 @@
   border: var(--btn-primary-border-width) solid var(--hover) !important;
   background-color: transparent !important;
 }
+
+.btn.btn-primary.btn-zurueck {
+  background: transparent !important;
+  border: none !important;
+  color: var(--dark-grey) !important;
+  padding: 0 !important;
+  font-size: var(--font-20px);
+  font-weight: normal;
+}
+
+.btn.btn-primary.btn-zurueck::before {
+  content: "←";
+}
+
+.btn.btn-primary.btn-zurueck:hover {
+  color: var(--blue) !important;
+  text-decoration: underline;
+}

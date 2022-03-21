@@ -42,7 +42,7 @@
   font-size: var(--form-input-size) !important;
   padding: var(--spacing-mini) !important;
   width: 100%;
-  border: 1px solid var(--mid-grey);
+  border: 2px solid var(--semi-grey);
   background-color: var(--white) !important;
   border-radius: var(--border-radius);
   cursor: pointer;
@@ -85,14 +85,14 @@
 }
 
 .formio-component-radio .show-as-buttons span:hover {
-  border: 1px solid var(--dark-grey);
+  border: 2px solid var(--dark-grey);
   background-color: var(--super-light-grey) !important;
   color: var(--black) !important;
 }
 
 .formio-component-radio .show-as-buttons input[type="radio"]:checked + span {
   color: var(--black) !important;
-  border: 1px solid var(--blue);
+  border: 2px solid var(--blue);
   background-color: var(--blue-10) !important;
 }
 
@@ -102,6 +102,6 @@
   .show-as-buttons
   input[type="radio"]
   + span {
-  border: 1px solid var(--danger);
+  border: 2px solid var(--danger);
   background-color: var(--danger-20) !important;
 }
