@@ -136,7 +136,7 @@
 .formio-component-selectboxes .input-group-prepend,
 .formio-component-editgrid .input-group-prepend,
 .formio-component-day .input-group-prepend {
-  border: 2px solid var(--dark-blue);
+  border: 2px solid var(--dark-grey);
   background-color: var(--light-grey);
   border-right: none;
 }
@@ -154,7 +154,7 @@
 .formio-component-selectboxes .input-group-append,
 .formio-component-editgrid .input-group-append,
 .formio-component-day .input-group-append {
-  border: 2px solid var(--dark-blue);
+  border: 2px solid var(--dark-grey);
   background-color: var(--light-grey);
   border-left: none;
 }
