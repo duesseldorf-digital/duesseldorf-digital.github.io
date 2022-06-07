@@ -44,3 +44,17 @@ h1.form-title {
 .card {
   border: 2.5px solid var(--mid-grey);
 }
+
+	    .formio-sketchpad-body {
+		    height: 200px !important
+	    }
+	    
+	    .formio-sketchpad-header {
+		    z-index: 500 !important;
+position: relative !important;
+	    }
+	    
+	    .formio-sketchpad-background,
+	    .formio-sketchpad-canvas {
+		    position: absolute !important
+	    }
