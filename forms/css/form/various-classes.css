@@ -46,7 +46,7 @@ h1.form-title {
 }
 
 	    .formio-sketchpad-body {
-		    height: 200px !important
+		    height: 200px !important;
 	    }
 	    
 	    .formio-sketchpad-header {
@@ -56,5 +56,5 @@ position: relative !important;
 	    
 	    .formio-sketchpad-background,
 	    .formio-sketchpad-canvas {
-		    position: absolute !important
+		    position: absolute !important;
 	    }
