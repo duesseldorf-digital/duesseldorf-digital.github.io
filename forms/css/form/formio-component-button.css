@@ -71,3 +71,13 @@
   color: var(--blue) !important;
   text-decoration: underline;
 }
+
+.btn.btn-lang {
+	color: var(--dark-grey) !important;
+	background-color: white !important;
+}
+
+.btn.btn-lang img {
+	width: 20px;
+	height: auto;
+}

@@ -1,3 +1,7 @@
+.form-mount-point {
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
 .formio-component-content {
   color: var(--black);
   font-size: var(--paragraph-size);

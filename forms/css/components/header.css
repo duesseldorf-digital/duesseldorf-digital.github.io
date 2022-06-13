@@ -31,7 +31,7 @@ float: left;
 @media (min-width: 600px) {
 .header__claim {
   float: right;
-  height: 50px;
+  height: 45px;
   
 }
 

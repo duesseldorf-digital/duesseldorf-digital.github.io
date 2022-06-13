@@ -6,6 +6,16 @@
   padding: var(--spacing-mini) 0;
 }
 
+figure.table table th {
+  width: 300px;
+}
+
+figure.table table {
+  width: 100%;
+  margin-bottom: 0rem;
+  color: #212529;
+}
+
 @media screen and (min-width: 1000px) {
   .formio-component-table td {
     padding: var(--spacing-small) 0;

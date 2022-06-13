@@ -52,6 +52,10 @@
   background-image: url("../../images/warning.svg");
 }
 
+.alert.alert-danger ul {
+  display: none;
+}
+
 .alert *:first-child {
   margin-top: 0;
 }

@@ -21,7 +21,13 @@
 }
 
 .formio-component-panel .card-body {
+  padding: var(--spacing-nano) var(--spacing-mini);
+}
+
+@media screen and (min-width: 800px) {
+.formio-component-panel .card-body {
   padding: var(--spacing-small) var(--spacing-mini);
+}
 }
 
 .formio-component-panel .card-title {
@@ -103,10 +109,6 @@
   margin-right: 30px;
 }
 
-.formio-component-panel.box-info .card-body {
-  padding-left: 65px;
-}
-
 .formio-component-panel.box-success .card-header,
 .formio-component-panel.box-success .card-body {
   background-color: var(--success-20) !important;
@@ -130,10 +132,6 @@
   margin-bottom: 0em;
   display: inline-block;
   margin-right: 30px;
-}
-
-.formio-component-panel.box-success .card-body {
-  padding-left: 65px;
 }
 
 .formio-component-panel.box-warning .card-header,
@@ -161,10 +159,6 @@
   margin-right: 30px;
 }
 
-.formio-component-panel.box-warning .card-body {
-  padding-left: 65px;
-}
-
 .formio-component-panel.box-danger .card-header,
 .formio-component-panel.box-danger .card-body {
   background-color: var(--danger-20) !important;
@@ -190,6 +184,22 @@
   margin-right: 30px;
 }
 
-.formio-component-panel.box-danger .card-body {
-  padding-left: 65px;
+.formio-component-panel.box-danger .card-body,
+.formio-component-panel.box-info .card-body,
+.formio-component-panel.box-success .card-body,
+.formio-component-panel.box-warning .card-body {
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 800px) {
+  .formio-component-panel .card-title {
+    font-size: var(--font-24px);
+  }
+
+  .formio-component-panel.box-danger .card-body,
+  .formio-component-panel.box-info .card-body,
+  .formio-component-panel.box-success .card-body,
+  .formio-component-panel.box-warning .card-body {
+    padding-left: 65px;
+  }
 }

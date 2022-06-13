@@ -14,13 +14,13 @@
   --font-36px: 2.25rem;
   --font-40px: 2.5rem;
   --font-50px: 3.125rem;
-  --paragraph-size: var(--font-16px);
-  --paragraph-size-small: var(--font-16px);
-  --label-size: var(--font-16px);
-  --form-input-size: var(--font-16px);
+  --paragraph-size: var(--font-18px);
+  --paragraph-size-small: var(--font-18px);
+  --label-size: var(--font-18px);
+  --form-input-size: var(--font-18px);
 
   /* Font */
-  --font: "National";
+  --font: "National", sans-serif;
   --line-height: 1.4;
 
   /* Colors */
@@ -85,7 +85,7 @@
   :root {
     --paragraph-size: var(--font-20px);
     --paragraph-size-small: var(--font-16px);
-    --label-size: var(--font-18px);
+    --label-size: var(--font-20px);
     --form-input-size: var(--font-20px);
     --spacing-separator: var(--spacing-small);
   }

@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased; /* Chrome, Safari */
   -moz-osx-font-smoothing: grayscale; /* Firefox */
   background-color: var(--white);
+  text-rendering: optimizeLegibility;
 }
 
 a {

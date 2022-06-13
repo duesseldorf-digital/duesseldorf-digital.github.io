@@ -44,3 +44,24 @@ h1.form-title {
 .card {
   border: 2.5px solid var(--mid-grey);
 }
+
+.formio-sketchpad-toolbar-button-line,
+.formio-sketchpad-toolbar-button-circle,
+.formio-sketchpad-toolbar-button-rectangle,
+.formio-sketchpad-toolbar-button-zoomIn,
+.formio-sketchpad-toolbar-button-zoomOut,
+.formio-sketchpad-toolbar-button-dragImage,
+.formio-sketchpad-toolbar-button-stroke,
+.formio-sketchpad-toolbar-button-fill,
+.formio-sketchpad-toolbar-button-width,
+.formio-sketchpad-toolbar-button-resetZoom {
+    display: none !important;
+}
+
+.formio-sketchpad-header {
+	float: left;
+}
+
+.formio-sketchpad-toolbar {
+	background: var(--blue);
+}
