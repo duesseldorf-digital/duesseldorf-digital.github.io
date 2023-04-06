@@ -132,6 +132,34 @@
   margin: auto;
 }
 
+.standesamt-themenauswahl .show-as-item input[value="geburt"] + span::before,
+.formio-component-radio .show-as-item input[value="geburt"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/geburt.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.standesamt-themenauswahl .show-as-item input[value="urkunden"] + span::before,
+.formio-component-radio .show-as-item input[value="urkunden"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/urkunden.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
 .standesamt-themenauswahl .show-as-item input[type="radio"] + span::after,
 .formio-component-radio .show-as-item input[type="radio"] + span::after {
   content: "" !important;
