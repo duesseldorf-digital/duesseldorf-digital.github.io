@@ -97,3 +97,13 @@
   border: 1px solid var(--danger);
   background-color: var(--danger-20) !important;
 }
+
+/* Custom: Standesamt */
+
+.formio-component-radio.standesamt-themenauswahl
+  .show-as-item
+  .form-radio
+  .form-check {
+  width: 49%;
+  display: inline-block;
+}
