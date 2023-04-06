@@ -108,19 +108,17 @@
   display: inline-block;
 }
 
-.formio-component-groupedapiradios .show-as-item input[value="heirat"] + span,
+.standesamt-themenauswahl .show-as-item input[value="heirat"] + span,
 .formio-component-radio .show-as-item input[value="heirat"] + span {
   position: relative;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   text-align: center;
+  display: block !important;
 }
 
-.formio-component-groupedapiradios
-  .show-as-item
-  input[value="heirat"]
-  + span::before,
+.standesamt-themenauswahl .show-as-item input[value="heirat"] + span::before,
 .formio-component-radio .show-as-item input[value="heirat"] + span::before {
   content: "" !important;
   background-image: url("../../images/heirat.svg");
@@ -134,11 +132,8 @@
   margin: auto;
 }
 
-.formio-component-groupedapiradios
-  .show-as-item
-  input[value="heirat"]
-  + span::after,
-.formio-component-radio .show-as-item input[value="heirat"] + span::after {
+.standesamt-themenauswahl .show-as-item input[type="radio"] + span::after,
+.formio-component-radio .show-as-item input[type="radio"] + span::after {
   content: "" !important;
   background: none !important;
   display: none !important;
