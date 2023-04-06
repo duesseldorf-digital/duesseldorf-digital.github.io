@@ -108,8 +108,7 @@
   display: inline-block;
 }
 
-.standesamt-themenauswahl .show-as-item input[type="radio"] + span,
-.formio-component-radio .show-as-item input[type="radio"] + span {
+.standesamt-themenauswahl .show-as-item input[type="radio"] + span {
   position: relative;
   justify-content: space-between;
   align-items: center;
@@ -118,8 +117,7 @@
   display: block !important;
 }
 
-.standesamt-themenauswahl .show-as-item input[value="heirat"] + span::before,
-.formio-component-radio .show-as-item input[value="heirat"] + span::before {
+.standesamt-themenauswahl .show-as-item input[value="heirat"] + span::before {
   content: "" !important;
   background-image: url("../../images/heirat.svg");
   background-position: center;
@@ -132,8 +130,7 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl .show-as-item input[value="geburt"] + span::before,
-.formio-component-radio .show-as-item input[value="geburt"] + span::before {
+.standesamt-themenauswahl .show-as-item input[value="geburt"] + span::before {
   content: "" !important;
   background-image: url("../../images/geburt.svg");
   background-position: center;
@@ -146,8 +143,7 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl .show-as-item input[value="urkunden"] + span::before,
-.formio-component-radio .show-as-item input[value="urkunden"] + span::before {
+.standesamt-themenauswahl .show-as-item input[value="urkunden"] + span::before {
   content: "" !important;
   background-image: url("../../images/urkunden.svg");
   background-position: center;
@@ -160,8 +156,10 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl .show-as-item input[value="sonstiges"] + span::before,
-.formio-component-radio .show-as-item input[value="sonstiges"] + span::before {
+.standesamt-themenauswahl
+  .show-as-item
+  input[value="sonstiges"]
+  + span::before {
   content: "" !important;
   background-image: url("../../images/sonstiges.svg");
   background-position: center;
@@ -211,8 +209,7 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl .show-as-item input[type="radio"] + span::after,
-.formio-component-radio .show-as-item input[type="radio"] + span::after {
+.standesamt-themenauswahl .show-as-item input[type="radio"] + span::after {
   content: "" !important;
   background: none !important;
   display: none !important;
