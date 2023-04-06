@@ -108,8 +108,8 @@
   display: inline-block;
 }
 
-.standesamt-themenauswahl .show-as-item input[value="heirat"] + span,
-.formio-component-radio .show-as-item input[value="heirat"] + span {
+.standesamt-themenauswahl .show-as-item input[type="radio"] + span,
+.formio-component-radio .show-as-item input[type="radio"] + span {
   position: relative;
   justify-content: space-between;
   align-items: center;
@@ -150,6 +150,57 @@
 .formio-component-radio .show-as-item input[value="urkunden"] + span::before {
   content: "" !important;
   background-image: url("../../images/urkunden.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.standesamt-themenauswahl .show-as-item input[value="sonstiges"] + span::before,
+.formio-component-radio .show-as-item input[value="sonstiges"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/sonstiges.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.standesamt-themenauswahl
+  .show-as-item
+  input[value="namensanderung"]
+  + span::before,
+.formio-component-radio
+  .show-as-item
+  input[value="namensanderung"]
+  + span::before {
+  content: "" !important;
+  background-image: url("../../images/namensanderung.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.standesamt-themenauswahl
+  .show-as-item
+  input[value="sterbefall"]
+  + span::before,
+.formio-component-radio .show-as-item input[value="sterbefall"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/sterbefall.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 50px !important;
