@@ -104,8 +104,17 @@
   .show-as-item
   .form-radio
   .form-check {
-  width: 49%;
+  width: 32.9%;
   display: inline-block;
+}
+
+.formio-component-groupedapiradios .show-as-item input[value="heirat"] + span,
+.formio-component-radio .show-as-item input[value="heirat"] + span {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .formio-component-groupedapiradios
@@ -117,10 +126,20 @@
   background-image: url("../../images/heirat.svg");
   background-position: center;
   background-repeat: no-repeat;
-  width: 30px !important;
-  height: 30px !important;
+  width: 50px !important;
+  height: 50px !important;
   background-size: 100%;
   display: block;
   flex-shrink: 0;
   margin: auto;
+}
+
+.formio-component-groupedapiradios
+  .show-as-item
+  input[value="heirat"]
+  + span::after,
+.formio-component-radio .show-as-item input[value="heirat"] + span::after {
+  content: "" !important;
+  background: none !important;
+  display: none !important;
 }
