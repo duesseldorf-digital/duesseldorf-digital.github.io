@@ -5,7 +5,7 @@
 
 .form-control:disabled,
 .form-control[readonly] {
-  background: transparent;
+  background: var(--light-grey);
   color: #000;
 }
 
