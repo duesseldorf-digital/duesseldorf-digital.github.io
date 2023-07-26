@@ -97,8 +97,25 @@
   content: "" !important;
   background-position: center;
   background-repeat: no-repeat;
-  width: var(--icon-small) !important;
-  height: var(--icon-small) !important;
+  width: 20px;
+  height: 40px;
+  background-size: 100%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.formio-component-radio.formio-component-kartentyp
+  .show-as-item
+  .form-radio
+  .form-check:nth-child(2)
+  input[type="radio"]
+  + span::before {
+  background-image: url("https://duesseldorf-digital.github.io/forms/images/fk_card.png") !important;
+  content: "" !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 40px;
   background-size: 100%;
   display: inline-block;
   flex-shrink: 0;
