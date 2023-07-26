@@ -93,7 +93,7 @@
   .form-check:nth-child(1)
   input[type="radio"]
   + span:before {
-  background-image: url("../../images/fk_wallet.png");
+  background-image: url("https://duesseldorf-digital.github.io/forms/images/fk_wallet.png");
 }
 
 .formio-component-kartentyp
@@ -101,5 +101,5 @@
   .form-check:nth-child(2)
   input[type="radio"]
   + span:after {
-  background-image: url("../../images/fk_card.png");
+  background-image: url("https://duesseldorf-digital.github.io/forms/images/fk_card.png");
 }
