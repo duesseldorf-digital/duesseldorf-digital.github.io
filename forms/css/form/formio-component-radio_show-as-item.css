@@ -36,6 +36,7 @@
   background-color: var(--white) !important;
   border-radius: var(--border-radius);
   cursor: pointer;
+  text-align: center;
 }
 
 @media screen and(min-width: 1000px) {
