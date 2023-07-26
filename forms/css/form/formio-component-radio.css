@@ -88,18 +88,10 @@
 .formio-component-radio.formio-error-wrapper input[type="radio"] {
   border: 2px solid var(--danger);
 }
-.formio-component-kartentyp
-  .show-as-item
-  .form-check:nth-child(1)
-  input[type="radio"]
-  + span:before {
-  background-image: url("https://duesseldorf-digital.github.io/forms/images/fk_wallet.png");
-}
 
-.formio-component-kartentyp
+.formio-component-radio.formio-component-kartentyp
   .show-as-item
-  .form-check:nth-child(2)
   input[type="radio"]
-  + span:after {
-  background-image: url("https://duesseldorf-digital.github.io/forms/images/fk_card.png");
+  + span::before {
+  background-image: url("https://duesseldorf-digital.github.io/forms/images/fk_wallet.png");
 }
