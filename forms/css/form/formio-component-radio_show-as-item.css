@@ -210,6 +210,23 @@
   margin: auto;
 }
 
+.standesamt-themenauswahl
+  .show-as-item
+  input[value="vaterschaftsanerkennung"]
+  + span::before,
+.formio-component-radio .show-as-item input[value="sterbefall"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/vaterschaftsanerkennung.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 39px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
 .standesamt-themenauswahl .show-as-item input[type="radio"] + span::after {
   content: "" !important;
   background: none !important;
