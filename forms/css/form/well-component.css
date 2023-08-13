@@ -6,10 +6,6 @@
   padding: var(--spacing-mini);
 }
 
-.card.bg-light.card-body.bg-lightblue {
-  background-color: var(--blue-30) !important;
-}
-
 .card.bg-light {
   position: relative;
   margin: var(--spacing-small) 0;
@@ -22,10 +18,11 @@
     margin-top: 2px;
     left: 1.8rem;
   }
-
+  
   .card.bg-light.card-body {
-    padding: var(--spacing-small);
-  }
+  padding: var(--spacing-small);
+}
+
 }
 
 @media screen and (min-width: 500px) {
