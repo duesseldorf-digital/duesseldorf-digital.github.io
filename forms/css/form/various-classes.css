@@ -72,9 +72,12 @@ h1.form-title {
 }
 .linkliste li:before {
   content: "↗" !important;
+  margin-left: -25px;
   padding-right: 10px;
 }
-
+.linkliste li {
+  padding-left: 15px;
+}
 .linkliste li,
 .faqliste li {
   padding-bottom: 0px;
