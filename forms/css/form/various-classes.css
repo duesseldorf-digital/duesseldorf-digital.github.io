@@ -71,7 +71,7 @@ h1.form-title {
   padding-left: 15px;
 }
 .linkliste li:before {
-  content: "&#8599;" !important;
+  content: "\2197" !important;
   margin-left: -25px;
   padding-right: 10px;
 }
