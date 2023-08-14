@@ -1,4 +1,4 @@
-.bg-lightblue {
+.bg-lightblue .card.bg-light.card-body {
   background-color: var(--blue-30) !important;
 }
 
