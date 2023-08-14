@@ -1,13 +1,13 @@
+.bg-lightblue {
+  background-color: var(--blue-30) !important;
+}
+
 .card.bg-light.card-body {
   background-color: var(--super-light-grey) !important;
   border: none;
   border-radius: 0;
   line-height: 1.4;
   padding: var(--spacing-mini);
-}
-
-.card.bg-light.card-body.bg-lightblue {
-  background-color: var(--blue-30) !important;
 }
 
 .card.bg-light {
