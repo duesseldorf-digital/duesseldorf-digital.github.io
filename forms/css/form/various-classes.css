@@ -68,17 +68,18 @@ h1.form-title {
 
 .linkliste ul {
   list-style-type: none !important;
-  padding-left: 0px;
+  padding-left: 15px;
 }
 .linkliste li:before {
   content: "↗" !important;
   padding-right: 10px;
 }
 
-.linkliste li {
+.linkliste li,
+.faqliste li {
   padding-bottom: 0px;
 }
 
-.linkliste .formio-component-fieldset legend {
+.linkliste fieldset legend {
   margin: 0 0 0.5em 0 !important;
 }
