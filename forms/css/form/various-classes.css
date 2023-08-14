@@ -55,13 +55,20 @@ h1.form-title {
 .formio-sketchpad-toolbar-button-fill,
 .formio-sketchpad-toolbar-button-width,
 .formio-sketchpad-toolbar-button-resetZoom {
-    display: none !important;
+  display: none !important;
 }
 
 .formio-sketchpad-header {
-	float: left;
+  float: left;
 }
 
 .formio-sketchpad-toolbar {
-	background: var(--blue);
+  background: var(--blue);
+}
+
+.linkliste ul {
+  list-style-type: none !important;
+}
+.linkliste li:before {
+  content: "XXX" !important;
 }

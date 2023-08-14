@@ -25,9 +25,9 @@
 }
 
 @media screen and (min-width: 800px) {
-.formio-component-panel .card-body {
-  padding: var(--spacing-small) var(--spacing-mini);
-}
+  .formio-component-panel .card-body {
+    padding: var(--spacing-small) var(--spacing-mini);
+  }
 }
 
 .formio-component-panel .card-title {
@@ -43,6 +43,10 @@
 @media screen and (min-width: 800px) {
   .formio-component-panel .card-title {
     font-size: var(--font-24px);
+  }
+
+  .fieldset-faq .formio-component-panel .card-title {
+    font-size: var(--font-18px) !important;
   }
 }
 
