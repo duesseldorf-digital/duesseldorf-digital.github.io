@@ -70,5 +70,5 @@ h1.form-title {
   list-style-type: none !important;
 }
 .linkliste li:before {
-  content: "XXX" !important;
+  content: "↗" !important;
 }
