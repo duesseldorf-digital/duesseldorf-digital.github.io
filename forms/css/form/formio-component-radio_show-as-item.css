@@ -105,8 +105,18 @@
   .show-as-item
   .form-radio
   .form-check {
-  width: 32.9%;
+  width: 100%;
   display: inline-block;
+}
+
+@media screen and (min-width: 500px) {
+  .formio-component-radio.standesamt-themenauswahl
+    .show-as-item
+    .form-radio
+    .form-check {
+    width: 32.9%;
+    display: inline-block;
+  }
 }
 
 .standesamt-themenauswahl .show-as-item input[type="radio"] + span {
