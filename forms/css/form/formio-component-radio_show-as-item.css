@@ -220,14 +220,8 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl
-  .show-as-item
-  input[value="vaterschaftsanerkennung"]
-  + span::before,
-.formio-component-radio
-  .show-as-item
-  input[value="vaterschaftsanerkennung"]
-  + span::before {
+.standesamt-themenauswahl .show-as-item:nth-child(4) input + span::before,
+.formio-component-radio .show-as-item:nth-child(4) input + span::before {
   content: "" !important;
   background-image: url("../../images/vaterschaftsanerkennung.svg");
   background-position: center;
