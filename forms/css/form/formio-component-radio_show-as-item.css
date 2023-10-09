@@ -141,8 +141,7 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl .show-as-item div:nth-child(3) input + span::before,
-.formio-component-radio .show-as-item div:nth-child(3) input + span::before {
+.standesamt-themenauswahl .show-as-item div:nth-child(3) input + span::before {
   content: "" !important;
   background-image: url("../../images/geburt.svg");
   background-position: center;
@@ -221,8 +220,7 @@
   margin: auto;
 }
 
-.standesamt-themenauswahl .show-as-item div:nth-child(4) input + span::before,
-.formio-component-radio .show-as-item div:nth-child(4) input + span::before {
+.standesamt-themenauswahl .show-as-item div:nth-child(4) input + span::before {
   content: "" !important;
   background-image: url("../../images/vaterschaftsanerkennung.svg");
   background-position: center;
