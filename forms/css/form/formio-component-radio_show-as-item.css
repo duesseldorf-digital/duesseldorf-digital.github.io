@@ -254,8 +254,9 @@
     .show-as-item
     .form-radio
     .form-check {
-    width: 49.5%;
+    width: 40%;
     display: inline-block;
+    margin-right: 2%;
   }
 }
 
