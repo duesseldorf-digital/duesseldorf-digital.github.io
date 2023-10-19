@@ -300,3 +300,57 @@
   background: none !important;
   display: none !important;
 }
+
+.formio-component-radio.behe-vollmacht .show-as-item .form-radio .form-check {
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 500px) {
+  .formio-component-radio.behe-vollmacht .show-as-item .form-radio .form-check {
+    width: 40%;
+    display: inline-block;
+    margin-right: 2%;
+  }
+}
+
+.behe-vollmacht .show-as-item input[type="radio"] + span {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  display: block !important;
+}
+
+.behe-vollmacht .show-as-item input[value="O"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/behe-vollmacht.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 80px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.behe-vollmacht .show-as-item input[value="P"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/behe-einzelperson.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 80px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.behe-vollmacht .show-as-item input[type="radio"] + span::after {
+  content: "" !important;
+  background: none !important;
+  display: none !important;
+}
