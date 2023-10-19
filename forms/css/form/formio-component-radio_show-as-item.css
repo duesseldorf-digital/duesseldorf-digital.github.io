@@ -323,7 +323,7 @@
   display: block !important;
 }
 
-.behe-vollmacht .show-as-item input[value="O"] + span::before {
+.behe-vollmacht .show-as-item input[value="vollmacht"] + span::before {
   content: "" !important;
   background-image: url("../../images/behe-vollmacht.svg");
   background-position: center;
@@ -336,7 +336,7 @@
   margin: auto;
 }
 
-.behe-vollmacht .show-as-item input[value="P"] + span::before {
+.behe-vollmacht .show-as-item input[value="eigenstaendig"] + span::before {
   content: "" !important;
   background-image: url("../../images/behe-einzelperson.svg");
   background-position: center;
