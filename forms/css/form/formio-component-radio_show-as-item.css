@@ -274,7 +274,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 50px !important;
-  height: 50px !important;
+  height: 80px !important;
   background-size: 100%;
   display: block;
   flex-shrink: 0;
@@ -287,9 +287,15 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 50px !important;
-  height: 50px !important;
+  height: 80px !important;
   background-size: 100%;
   display: block;
   flex-shrink: 0;
   margin: auto;
+}
+
+.behe-antragsteller .show-as-item input[type="radio"] + span::after {
+  content: "" !important;
+  background: none !important;
+  display: none !important;
 }
