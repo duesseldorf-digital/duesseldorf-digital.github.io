@@ -238,3 +238,58 @@
   background: none !important;
   display: none !important;
 }
+
+/* Custom: Steueramt */
+
+.formio-component-radio.behe-antragsteller
+  .show-as-item
+  .form-radio
+  .form-check {
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 500px) {
+  .formio-component-radio.behe-antragsteller
+    .show-as-item
+    .form-radio
+    .form-check {
+    width: 49.9%;
+    display: inline-block;
+  }
+}
+
+.behe-antragsteller .show-as-item input[type="radio"] + span {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  display: block !important;
+}
+
+.behe-antragsteller .show-as-item input[value="O"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/gewerbe.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.behe-antragsteller .show-as-item input[value="P"] + span::before {
+  content: "" !important;
+  background-image: url("../../images/privatperson.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px !important;
+  height: 50px !important;
+  background-size: 100%;
+  display: block;
+  flex-shrink: 0;
+  margin: auto;
+}
