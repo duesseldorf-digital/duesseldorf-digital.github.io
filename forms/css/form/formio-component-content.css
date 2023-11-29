@@ -150,6 +150,6 @@ fieldset .formio-component-content h3 {
   }
 
   .formio-component-content li {
-    padding-bottom: var(--spacing-mini);
+    padding-bottom: var(--spacing-super-mini);
   }
 }

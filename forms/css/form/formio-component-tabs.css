@@ -1,0 +1,18 @@
+.formio-component-tabs .card {
+  border: none !important;
+}
+.formio-component-tabs .card-header {
+  background: white;
+}
+
+.formio-component-tabs .card-body {
+  border-left: 2px solid var(--dark-grey);
+  border-right: 2px solid var(--dark-grey);
+  border-bottom: 2px solid var(--dark-grey);
+}
+
+.nav-tabs .nav-link.active {
+  border-top: 3px solid var(--blue);
+  border-left: 2px solid var(--dark-grey);
+  border-right: 2px solid var(--dark-grey);
+}
