@@ -17,7 +17,8 @@
   font-size: var(--paragraph-size);
 }
 
-.nav-tabs .nav-link.active {
+.nav-tabs .nav-link.active;
+.nav-tabs .nav-link.active:hover {
   border-top: 3px solid var(--blue);
   border-left: 1.5px solid var(--mid-grey);
   border-right: 1.5px solid var(--mid-grey);
