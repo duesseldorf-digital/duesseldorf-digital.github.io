@@ -53,7 +53,7 @@
 }
 
 .alert.alert-danger ul {
-  display: none;
+  display: block;
 }
 
 .alert *:first-child {
