@@ -3,16 +3,20 @@
 }
 .formio-component-tabs .card-header {
   background: white;
+  border-bottom: 1.5px solid var(--mid-grey);
 }
 
 .formio-component-tabs .card-body {
-  border-left: 2px solid var(--dark-grey);
-  border-right: 2px solid var(--dark-grey);
-  border-bottom: 2px solid var(--dark-grey);
+  border-left: 1.5px solid var(--mid-grey);
+  border-right: 1.5px solid var(--mid-grey);
+  border-bottom: 1.5px solid var(--mid-grey);
+  border-radius: 0;
 }
 
 .nav-tabs .nav-link.active {
   border-top: 3px solid var(--blue);
-  border-left: 2px solid var(--dark-grey);
-  border-right: 2px solid var(--dark-grey);
+  border-left: 1.5px solid var(--mid-grey);
+  border-right: 1.5px solid var(--mid-grey);
+  font-weight: 600;
+  border-radius: 0;
 }
