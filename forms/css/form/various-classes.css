@@ -6,6 +6,12 @@
   padding-top: var(--spacing-small);
 }
 
+@media (min-width: 675px) {
+  .wizard-page {
+    scroll-margin-top: 270px;
+  }
+}
+
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
   width: 100% !important;
 }
