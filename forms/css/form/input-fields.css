@@ -68,19 +68,7 @@
   }
 }
 
-.formio-component-textfield .form-control,
-.formio-component-addresssearch .form-control,
-.formio-component-phoneNumber .form-control,
-.formio-component-email .form-control,
-.formio-component-textarea .form-control,
-.formio-component-number .form-control,
-.formio-component-url .form-control,
-.formio-component-file .form-control,
-.formio-component-map .form-control,
-.formio-component-select .form-control,
-.formio-component-selectboxes .form-control,
-.formio-component-editgrid .form-control,
-.formio-component-day .form-control {
+.form-control {
   color: var(--black) !important;
   height: unset !important;
   font-size: var(--form-input-size) !important;
@@ -90,88 +78,28 @@
   padding: var(--spacing-super-mini) var(--spacing-mini);
 }
 
-.formio-component-textfield .form-control:focus,
-.formio-component-addresssearch .form-control:focus,
-.formio-component-phoneNumber .form-control:focus,
-.formio-component-email .form-control:focus,
-.formio-component-textarea .form-control:focus,
-.formio-component-number .form-control:focus,
-.formio-component-url .form-control:focus,
-.formio-component-file .form-control:focus,
-.formio-component-map .form-control:focus,
-.formio-component-select .form-control:focus,
-.formio-component-selectboxes .form-control:focus,
-.formio-component-editgrid .form-control:focus,
-.formio-component-day .form-control:focus {
+.form-control:focus {
   border: 2px solid var(--blue) !important;
   box-shadow: unset;
 }
 
-.formio-component-textfield input::placeholder,
-.formio-component-addresssearch input::placeholder,
-.formio-component-phoneNumber input::placeholder,
-.formio-component-email input::placeholder,
-.formio-component-textarea textarea::placeholder,
-.formio-component-number input::placeholder,
-.formio-component-url input::placeholder,
-.formio-component-file input::placeholder,
-.formio-component-map input::placeholder,
-.formio-component-select input::placeholder,
-.formio-component-selectboxes input::placeholder,
-.formio-component-editgrid input::placeholder,
-.formio-component-day input::placeholder {
+input::placeholder {
   color: var(--semi-grey) !important;
 }
 
-.formio-component-textfield .input-group-prepend,
-.formio-component-addresssearch .input-group-prepend,
-.formio-component-phoneNumber .input-group-prepend,
-.formio-component-email .input-group-prepend,
-.formio-component-textarea .input-group-prepend,
-.formio-component-number .input-group-prepend,
-.formio-component-url .input-group-prepend,
-.formio-component-file .input-group-prepend,
-.formio-component-map .input-group-prepend,
-.formio-component-select .input-group-prepend,
-.formio-component-selectboxes .input-group-prepend,
-.formio-component-editgrid .input-group-prepend,
-.formio-component-day .input-group-prepend {
+.input-group-prepend {
   border: 2px solid var(--dark-grey);
   background-color: var(--light-grey);
   border-right: none;
 }
 
-.formio-component-textfield .input-group-append,
-.formio-component-addresssearch .input-group-append,
-.formio-component-phoneNumber .input-group-append,
-.formio-component-email .input-group-append,
-.formio-component-textarea .input-group-append,
-.formio-component-number .input-group-append,
-.formio-component-url .input-group-append,
-.formio-component-file .input-group-append,
-.formio-component-map .input-group-append,
-.formio-component-select .input-group-append,
-.formio-component-selectboxes .input-group-append,
-.formio-component-editgrid .input-group-append,
-.formio-component-day .input-group-append {
+.input-group-append {
   border: 2px solid var(--dark-grey);
   background-color: var(--light-grey);
   border-left: none;
 }
 
-.formio-component-textfield .input-group-text,
-.formio-component-addresssearch .input-group-text,
-.formio-component-phoneNumber .input-group-text,
-.formio-component-email .input-group-text,
-.formio-component-textarea .input-group-text,
-.formio-component-number .input-group-text,
-.formio-component-url .input-group-text,
-.formio-component-file .input-group-text,
-.formio-component-map .input-group-text,
-.formio-component-select .input-group-text,
-.formio-component-selectboxes .input-group-text,
-.formio-component-editgrid .input-group-text,
-.formio-component-day .input-group-text {
+.input-group-text {
   border: none;
   background: none;
 }
