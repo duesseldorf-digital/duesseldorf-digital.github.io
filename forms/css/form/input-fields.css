@@ -126,8 +126,7 @@ fieldset .formio-component-editgrid .col-form-label,
 fieldset .formio-component-groupedapiradios .radio h3,
 fieldset .formio-component-radio .col-form-label,
 fieldset .formio-component-selectboxes .col-form-label,
-fieldset fieldset legend,
-.col-form-label {
+fieldset fieldset legend {
   color: var(--black) !important;
   font-size: var(--label-size) !important;
   font-weight: 400 !important;
