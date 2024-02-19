@@ -72,3 +72,7 @@
 .pagination .page-item.page-item.active:last-child .page-link::after {
   display: none;
 }
+
+.progress-bar-container {
+  font-size: 0px;
+}
