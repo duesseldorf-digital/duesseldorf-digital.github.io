@@ -73,6 +73,10 @@
   display: none;
 }
 
+.progress-bar {
+  background-color: var(--blue);
+}
+
 .progress-bar-container {
   font-size: 0px;
 }
