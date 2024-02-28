@@ -56,6 +56,11 @@
   .formio-component-editgrid .list-group-header {
     padding: var(--spacing-mini) !important;
   }
+
+  .formio-component-editgrid
+    .row:not(.formio-component-editgrid .list-group-header .row) {
+    flex-wrap: unset;
+  }
 }
 
 .formio-component-editgrid
@@ -63,7 +68,7 @@
   align-items: center !important;
   font-size: var(--paragraph-size) !important;
   justify-content: space-between !important;
-  flex-wrap: unset;
+  flex-wrap: wrap;
 }
 
 .formio-component-editgrid .row .col-sm-2 {
