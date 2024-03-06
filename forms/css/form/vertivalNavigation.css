@@ -1,0 +1,32 @@
+.navigation.vertical-navigation .pagination:before {
+    background: var(--mid-grey);
+}
+
+.navigation.vertical-navigation .pagination > .page-item {
+    color: var(--dark-grey);
+}
+
+.navigation.vertical-navigation .page-item .page-link::before {
+    background: var(--mid-grey);
+}
+.navigation.vertical-navigation .page-item.active > .page-link:before {
+    background: var(--dark-grey);
+}
+
+.navigation.vertical-navigation .page-item.active ~ .page-item .page-link:hover {
+    color: #0d87e9;
+}
+
+@media (max-width: 925px) {
+    .navigation.vertical-navigation .nav-containerHeader {
+        background-color: var(--mid-grey);
+    }
+
+    .navigation.vertical-navigation .navigation-container-button {
+        color: var(--dark-grey);
+    }
+
+    .navigation.vertical-navigation .navigation-container {
+        border: 1px solid var(--mid-grey);
+    }
+}
